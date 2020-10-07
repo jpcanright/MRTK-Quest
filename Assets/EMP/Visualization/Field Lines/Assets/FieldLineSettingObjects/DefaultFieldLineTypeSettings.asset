@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71b64a15cbf9d794e8f999a9a608910f, type: 3}
+  m_Name: DefaultFieldLineTypeSettings
+  m_EditorClassIdentifier: 
+  fieldType: 0
+  fieldLinesPerCharge: 6
+  drawSpace: 0
+  calculationSettings: {fileID: 11400000, guid: 11caef27f5770a94ea6ac4e9fb54b968,
+    type: 2}
+  appearanceSettings: {fileID: 11400000, guid: 95cbc1a02aa3f784f90ea89d84152b45, type: 2}

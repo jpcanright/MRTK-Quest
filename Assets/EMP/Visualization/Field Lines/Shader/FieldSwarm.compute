@@ -1,0 +1,185 @@
+// Swarm - Special renderer that draws a swarm of swirling/crawling lines.
+// https://github.com/keijiro/Swarm
+
+#pragma kernel FieldUpdate
+#pragma kernel FieldReconstruct
+#pragma kernel FieldLineInit
+
+#include "UnityCG.cginc"
+//#include "SimplexNoise3D.cginc"
+
+RWStructuredBuffer<float4> PositionBuffer;
+RWStructuredBuffer<float4> TangentBuffer;
+RWStructuredBuffer<float4> NormalBuffer;
+
+StructuredBuffer<float4> PositionBufferRO;
+
+
+
+CBUFFER_START(Params)
+    uint InstanceCount;
+    uint HistoryLength;
+    float RandomSeed;
+    float Spread;
+    float StepWidth;
+//    float NoiseFrequency;
+//    float3 NoiseOffset;
+//    float4 _ChargePositions[32];
+//    float4 _ChargeStrengths[32];
+    float4 _Charges[32];
+    float4 _FieldLineSeeds[128];
+    int _SeedArrayLength;
+    int _ArrayLength;
+    //float4x4 _LocalToWorld;
+CBUFFER_END
+
+// This is left over from the original swarm code.
+float Random(float u, float v)
+{
+    float f = dot(float2(12.9898, 78.233), float2(u, v)) + RandomSeed;
+    return frac(43758.5453 * sin(f));
+}
+
+// Nearly uniformly distributed random vector in the unit sphere.
+float3 RandomPoint(float id)
+{
+    float u = Random(id * 0.01334, 0.3728) * UNITY_PI * 2;
+    float z = Random(0.8372, id * 0.01197) * 2 - 1;
+    float l = Random(4.438, id * 0.01938 - 4.378);
+    return float3(float2(cos(u), sin(u)) * sqrt(1 - z * z), z) * sqrt(l);
+}
+
+// Returns a 4-vector containing the location of a charge (xyz) and +1 or -1 (w) indicating whether the field line should
+// integrate down (+1; from positive charge) or up (-1; from negative charge) the electric field.
+float4 SeedCenter(float id)
+{
+    int index = (int)fmod(id,_SeedArrayLength);
+    return _FieldLineSeeds[index];
+}
+/*
+float4 ElectricField(float4 position)
+{
+    float4 field = float4(0,0,0,0);
+	for(int j = 0; j < _ArrayLength; j++)
+	{
+	   field = field + ((position - _ChargePositions[j]) * _ChargeStrengths[j].x) / (pow(distance(position, _ChargePositions[j]),3));
+	}
+	return field;
+}*/
+
+float3 ElectricField(float3 position)
+{
+    float3 field = float3(0,0,0);
+	for(int j = 0; j < _ArrayLength; j++)
+	{
+	   field = field + ((position - _Charges[j].xyz) * _Charges[j].w) / (pow(distance(position, _Charges[j].xyz),3));
+	}
+	return field;
+}
+
+float AdaptiveStepLength(float3 step, float3 prevStep)
+{
+    if(length(prevStep) == 0)
+    { 
+        return StepWidth;
+    }
+    return abs(dot(normalize(step), normalize(prevStep)) * StepWidth);
+}
+
+// Reset all the things, maybe
+[numthreads(64, 1, 1)]
+void FieldLineInit(uint id : SV_DispatchThreadID)
+{
+    for (uint i = 0; i < HistoryLength; i++)
+    {
+        uint offs = id + i * InstanceCount;
+        PositionBuffer[offs] = float4(0, 0, 0, 0);
+        //PositionBufferRO[offs] = float4(0, 0, 0, 0);
+        TangentBuffer[offs] = float4(0, 0, 1, 0);
+        NormalBuffer[offs] = float4(1, 0, 0, 0);
+    }
+}
+
+[numthreads(64, 1, 1)]
+void FieldUpdate(uint id : SV_DispatchThreadID)
+{
+    // Determine the first point.
+    float4 seedData = SeedCenter(id);
+    float3 p = normalize(RandomPoint(id)) * Spread + seedData.xyz;
+    PositionBuffer[id] = float4(p, 0);
+    
+    float3 step;
+    float3 prevStep = float3(0,0,0);
+    bool terminated = false;
+    for (uint i = 1; i < HistoryLength; i++)
+    {
+        if(!terminated)
+        {
+            // Move and store the point.
+            //p += cross(sn1.xyz, sn2.xyz) * StepWidth;
+            //float4 p_world = float4(p, 0);
+            // This does nothing and I have no idea why!
+            // So instead, we just leave a single instance of FieldSwarm.cs unscaled at origin with no rotation, such that its local space is also world space.
+            //float4 p_world = mul(_LocalToWorld, float4(p, 0));
+            //p += (normalize(ElectricField(p_world)) * StepWidth).xyz;
+            //p += normalize(ElectricField3(p_world.xyz)) * StepWidth;
+            step = normalize(ElectricField(p)) * seedData.w;
+            step *= AdaptiveStepLength(step, prevStep);
+            
+            if(dot(prevStep, step) < 0)
+            {
+                terminated = true;
+                PositionBuffer[id + i * InstanceCount] = float4(p, 0);
+                continue;
+            }
+            
+            p += step;
+            prevStep = step;
+        }
+        PositionBuffer[id + i * InstanceCount] = float4(p, 0);
+    }
+}
+
+[numthreads(64, 1, 1)]
+void FieldReconstruct(uint id : SV_DispatchThreadID)
+{
+    // Reconstruct the first point.
+    float3 p0 = PositionBufferRO[id].xyz;
+    float3 p1 = PositionBufferRO[id + InstanceCount].xyz;
+
+    float3 t0 = normalize(p1 - p0);
+    float3 b0 = cross(t0, normalize(p0));
+    float3 n0 = cross(b0, t0);
+
+    TangentBuffer[id] = float4(t0, 0);
+    NormalBuffer[id] = float4(n0, 0);
+
+    // Sequentially reconstruct the points excepting the last one.
+    for (uint i = 1; i < HistoryLength - 1; i++)
+    {
+        uint index = id + i * InstanceCount;
+
+        float3 p0 = PositionBufferRO[index - InstanceCount].xyz;
+        float3 p2 = PositionBufferRO[index + InstanceCount].xyz;
+
+        float3 t1 = normalize(p2 - p0);
+        float3 n1 = normalize(cross(b0, t1));
+
+        TangentBuffer[index] = float4(t1, 0);
+        NormalBuffer[index] = float4(n1, 0);
+
+        b0 = cross(t1, n1);
+    }
+
+    // Reconstruct the last point.
+    uint index = id + (HistoryLength - 1) * InstanceCount;
+
+    p0 = PositionBufferRO[index - InstanceCount].xyz;
+    p1 = PositionBufferRO[index].xyz;
+
+    float3 t1 = normalize(p1 - p0);
+    float3 n1 = normalize(cross(b0, t1));
+
+    TangentBuffer[index] = float4(t1, 0);
+    NormalBuffer[index] = float4(n1, 0);
+}

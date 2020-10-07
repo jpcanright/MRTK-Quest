@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 73897ca04981a8d449a3ab13df8d3a01
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - colorSettings: {fileID: 11400000, guid: 473281d120696e246a4cba93052e5a2d, type: 2}
+  - monopoleStrength: {instanceID: 0}
+  - generator: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

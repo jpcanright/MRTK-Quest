@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9a5c30c1335a648b00b48f69fc85f6, type: 3}
+  m_Name: Default Field Line Calculation Settings
+  m_EditorClassIdentifier: 
+  segmentLength: 0.03
+  maxSegments: 500
+  accuracy: 2
+  backTolerance: 0.12
+  stopTolerance: -0.77

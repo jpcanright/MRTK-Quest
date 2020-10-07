@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRTK.ThirdParty/MRTK-Quest.Examples/Scenes/MRTK-Quest_2.4_Extra.unity
     guid: 330348f766b8edf4c99b87ef08c721f8
-  m_configObjects: {}
+  - enabled: 0
+    path: Assets/MRTK.ThirdParty/MRTK-Quest.Examples/Scenes/MRTK-Quest_2.4_Extra_For_HL2.unity
+    guid: 69998ee2e4ba16c4087ad60e939b9d64
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7f72b1890fa13ea4eba69001eef1a41c,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 1e5eaf5c75d395f438794f2742007ec9,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b6b4be480359f54448af274dcbd5ed47,
+      type: 2}

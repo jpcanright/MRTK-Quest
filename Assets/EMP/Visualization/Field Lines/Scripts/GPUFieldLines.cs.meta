@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a70163e7ea8a2d642b20d85b7c86c1c4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - GPUInterface: {instanceID: 0}
+  - _template: {fileID: 11400000, guid: a9343e12b4d58de4f8de5232c6b0c60c, type: 2}
+  - _material: {fileID: 2100000, guid: b145d252f76b7014886835edfa1108e3, type: 2}
+  - _gradient: {fileID: 11400000, guid: d7a9fde6edce8754f97ecd86982a6c1d, type: 2}
+  - _compute: {fileID: 7200000, guid: 5ac200c6801404d448e1a2906cd755a6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

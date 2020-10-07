@@ -5,3 +5,6 @@
 [submodule "ThirdParty/MRTK-Audio"]
 	path = Assets/MRTK.ThirdParty/MRTK-Audio
 	url = https://github.com/joncohenproducer/MRTK-Audio.git
+[submodule "Assets/Shapes/Shapes"]
+	path = Assets/Shapes
+	url = https://github.com/acegikmo/Shapes.git
