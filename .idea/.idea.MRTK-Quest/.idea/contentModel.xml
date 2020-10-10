@@ -10,6 +10,7 @@
         <e p="Cassia" t="Include">
           <e p="CassiaUIScripts" t="Include">
             <e p="CassiaReset.cs" t="Include" />
+            <e p="CassiaSpawnBox.cs" t="Include" />
             <e p="DeletorPointer.cs" t="Include" />
             <e p="ForceMeter.cs" t="Include" />
             <e p="ForceMeterJointRigidbodySwitcher.cs" t="Include" />

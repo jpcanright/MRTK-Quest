@@ -45,10 +45,6 @@ MonoBehaviour:
       type: 3}
   - controllerType: 1024
     handedness: 7
-    pointerPrefab: {fileID: 1507865967819406, guid: 38b548c6a2c270545a383296ad2bc4d5,
-      type: 3}
-  - controllerType: 1024
-    handedness: 7
     pointerPrefab: {fileID: 1507865967819406, guid: 526b854247016cf47bc5c58e01d82407,
       type: 3}
   - controllerType: 2048

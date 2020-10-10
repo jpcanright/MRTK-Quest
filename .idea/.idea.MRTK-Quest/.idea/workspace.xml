@@ -2,10 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ba91ea6-cf3b-481f-baeb-58e32f91a0a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Shapes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MRTK.ThirdParty/MRTK-Quest/Resources/MRTK-OculusConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MRTK.ThirdParty/MRTK-Quest/Resources/MRTK-OculusConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/OVRPlatformToolSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/OVRPlatformToolSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MRTK-Quest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MRTK-Quest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MRTK-Quest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MRTK-Quest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/MRTK-Quest_2.4_Extra Culled.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cassia/MRTK-Quest_2.4_Extra Culled.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/MRTK/Cassia-MixedRealityPointerProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cassia/MRTK/Cassia-MixedRealityPointerProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/MRTK/Cassia-MixedRealityToolkitConfigurationProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cassia/MRTK/Cassia-MixedRealityToolkitConfigurationProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/CassiaNegativeCharge.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/CassiaNegativeCharge.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/CassiaPositiveCharge.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/CassiaPositiveCharge.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/Courage.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/Courage.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/Mint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/Mint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/MintGhost.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/MintGhost.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/Negalong.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/Negalong.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/NormalMint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/NormalMint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/PoolNeg.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/PoolNeg.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/PoolPos.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/PoolPos.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/Power.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/Power.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/SineNeg.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/SineNeg.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/SinePos.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/SinePos.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/StickyMint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/StickyMint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/Tagalong.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/Tagalong.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/TriforceSpawnables.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/TriforceSpawnables.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/Wisdom.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cassia/Resources/Prefabs/Particles/Wisdom.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/External/MixedRealityToolkit-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/External/MixedRealityToolkit-Unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/External/MixedRealityToolkit-Unity/Assets/MRTK/Core/Services/MixedRealityToolkit.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/External/MixedRealityToolkit-Unity/Assets/MRTK/Core/Services/MixedRealityToolkit.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/External/MixedRealityToolkit-Unity/Assets/MRTK/Examples/Demos/UX/ObjectManipulator/Scenes/ObjectManipulatorExamplePhysics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/External/MixedRealityToolkit-Unity/Assets/MRTK/Examples/Demos/UX/ObjectManipulator/Scenes/ObjectManipulatorExamplePhysics.unity" afterDir="false" />
@@ -28,15 +61,6 @@
       <change beforePath="$PROJECT_DIR$/External/MixedRealityToolkit-Unity/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/External/MixedRealityToolkit-Unity/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/External/MixedRealityToolkit-Unity/ProjectSettings/XRPackageSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/External/MixedRealityToolkit-Unity/ProjectSettings/XRPackageSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/External/MixedRealityToolkit-Unity/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/External/MixedRealityToolkit-Unity/ProjectSettings/XRSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,104 +71,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Cassia/CassiaUIScripts/DeletorPointer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-              <folding>
-                <marker date="1598913777827" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-                <marker date="1598913777827" expanded="false" signature="160:257" ph="..." />
-                <marker date="1598913777827" expanded="true" signature="305:5591" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="312:465" ph="/// Implementation for default hand ray pointers shipped with MRTK. Primarily used with hands and motion controll ... " />
-                <marker date="1598913777827" expanded="true" signature="598:5589" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="1891:2817" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="2008:2340" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="2220:2326" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="2419:2751" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="2631:2737" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="2888:3005" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="3225:3998" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="3289:3988" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="3384:3448" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="3506:3974" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="3754:3956" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="4212:5583" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="4282:5573" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="4520:5559" ph="{...}" />
-                <marker date="1598913777827" expanded="true" signature="5128:5344" ph="/* Get our next 'expected' position by lerping between the expected point and the end point ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Cassia/MRTK/CassiaPointerMediator.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="63" selection-end-column="119" />
-              <folding>
-                <marker date="1598999300042" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-                <marker date="1598999300042" expanded="false" signature="160:291" ph="..." />
-                <marker date="1598999300042" expanded="true" signature="339:10962" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="346:676" ph="/// The default implementation for pointer mediation in MRTK which is responsible for ... " />
-                <marker date="1598999300042" expanded="true" signature="746:10960" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="1666:1686" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="1758:1825" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="2050:3902" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="2114:3892" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="2186:3878" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="2427:2558" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="2624:2755" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="2820:3183" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="2867:3161" ph="/* Debug.Log(&quot;Turning off deletor pointer at startup.&quot;); ... */" />
-                <marker date="1598999300042" expanded="true" signature="3208:3310" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="3370:3860" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="3566:3791" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="4133:4889" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="4199:4879" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="4271:4865" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="4746:4847" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="5077:9500" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="5139:9490" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="5337:5983" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="5410:5965" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="5565:5856" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="5668:5770" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="6187:6286" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="6352:6482" ph="/* If any pointers are locked, they have priority. ... */" />
-                <marker date="1598999300042" expanded="true" signature="6552:7424" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="6617:7406" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="6812:7384" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="6967:7358" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="7077:7191" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="7442:7579" ph="/* Check for near and far interactions ... */" />
-                <marker date="1598999300042" expanded="true" signature="7662:9141" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="7743:7821" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="7868:9123" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="8063:9101" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="8218:9075" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="8328:8442" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="8521:8908" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="8592:8828" ph="/* Only disable far interaction pointers ... */" />
-                <marker date="1598999300042" expanded="true" signature="9159:9298" ph="/* All other pointers that have not been assigned this frame ... */" />
-                <marker date="1598999300042" expanded="true" signature="9385:9476" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="9720:10138" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="9795:10128" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="9857:10114" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="9949:10096" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="10391:10954" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="10459:10944" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="10530:10594" ph="{...}" />
-                <marker date="1598999300042" expanded="true" signature="10774:10877" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Cassia/MRTK/ToolPointerInitialConfig.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="32">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <marker date="1598999375303" expanded="false" signature="6:170" ph="..." />
@@ -158,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/MRTK.ThirdParty/MRTK-Quest/Scripts/Input/TeleportPointer/CustomTeleportPointer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
+            <state relative-caret-position="5280">
               <caret line="728" column="17" selection-start-line="728" selection-start-column="17" selection-end-line="728" selection-end-column="17" />
               <folding>
                 <marker date="1595978686507" expanded="true" signature="0:1424" ph="/* ------------------------------------------------------------------------------ - ... */" />
@@ -180,7 +109,7 @@
                 <marker date="1595978686507" expanded="true" signature="8163:8753" ph="{...}" />
                 <marker date="1595978686507" expanded="true" signature="8207:8743" ph="{...}" />
                 <marker date="1595978686507" expanded="false" signature="8783:9230" ph="Parabollic Pointer Management" />
-                <marker date="1595978686507" expanded="true" signature="9240:14785" ph="Base Pointer Management" />
+                <marker date="1595978686507" expanded="false" signature="9240:14785" ph="Base Pointer Management" />
                 <marker date="1595978686507" expanded="true" signature="9403:9769" ph="{...}" />
                 <marker date="1595978686507" expanded="true" signature="9460:9759" ph="{...}" />
                 <marker date="1595978686507" expanded="true" signature="9545:9745" ph="{...}" />
@@ -329,7 +258,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/MRTK/Examples/Demos/Input/Scenes/DisablePointers/DisablePointersExample.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="288">
               <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <marker date="1595980872253" expanded="false" signature="6:176" ph="..." />
@@ -355,7 +284,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/MRTK/SDK/Features/UX/Scripts/Utilities/PointerBehaviorControls.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
+            <state relative-caret-position="2704">
               <caret line="188" column="62" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="62" />
               <folding>
                 <marker date="1595980874282" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
@@ -401,8 +330,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Cassia/MRTK/DeletorToggle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+            <state relative-caret-position="112">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding>
                 <marker date="1598985739640" expanded="false" signature="6:283" ph="..." />
                 <marker date="1598985739640" expanded="true" signature="327:1896" ph="{...}" />
@@ -416,10 +345,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Cassia/CassiaUIScripts/MeasuringStick.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <folding>
+                <marker date="1579591433594" expanded="false" signature="6:119" ph="..." />
+                <marker date="1579591433594" expanded="true" signature="177:1097" ph="{...}" />
+                <marker date="1579591433594" expanded="true" signature="468:550" ph="{...}" />
+                <marker date="1579591433594" expanded="true" signature="628:701" ph="{...}" />
+                <marker date="1579591433594" expanded="true" signature="759:1022" ph="{...}" />
+                <marker date="1579591433594" expanded="true" signature="1054:1095" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/MRTK/SDK/Features/Utilities/PointerUtils.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-970">
+            <state relative-caret-position="2704">
               <caret line="185" column="27" selection-start-line="185" selection-start-column="27" selection-end-line="185" selection-end-column="27" />
               <folding>
                 <marker date="1595980874316" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
@@ -487,7 +433,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/MRTK/Examples/Demos/HandTracking/Scripts/TetheredPlacement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-192">
+            <state relative-caret-position="224">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <marker date="1595980872246" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
@@ -504,17 +450,60 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/MRTK/Examples/Demos/Input/Scenes/PointerResult/SpawnOnPointerEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="272">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
                 <marker date="1595980872301" expanded="false" signature="6:62" ph="..." />
                 <marker date="1595980872301" expanded="true" signature="119:692" ph="{...}" />
                 <marker date="1595980872301" expanded="true" signature="314:690" ph="{...}" />
                 <marker date="1595980872301" expanded="true" signature="428:684" ph="{...}" />
                 <marker date="1595980872301" expanded="true" signature="477:674" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Cassia/CassiaUIScripts/CassiaSpawnBox.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+              <folding>
+                <marker date="1602181132713" expanded="false" signature="6:94" ph="..." />
+                <marker date="1602181132713" expanded="true" signature="139:7799" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="1381:1447" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="1480:1693" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="1804:2358" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="1916:1975" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="2081:2140" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="2246:2305" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="2421:2490" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="2538:2666" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="2730:4519" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="2790:2892" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="2955:3008" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="3076:4367" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="4376:4475" ph="/* TODO Normcore integration ... */" />
+                <marker date="1602181132713" expanded="true" signature="4574:4644" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="4703:4811" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="4881:5360" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="4958:5166" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="5199:5327" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="5421:6642" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="5481:5583" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="5646:5712" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="5772:6514" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="6680:6905" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="6744:6890" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="6943:7406" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="7211:7317" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="7330:7400" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="7464:7797" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="7553:7666" ph="{...}" />
+                <marker date="1602181132713" expanded="true" signature="7679:7791" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -545,6 +534,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/EMP/Core/Backend/MonopoleStrength.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MRTK/SDK/Features/UX/Scripts/Utilities/PointerBehaviorControls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Cassia/CassiaUIScripts/CassiaSpawnBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MRTK/Examples/Demos/Input/Scenes/PointerResult/SpawnOnPointerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MRTK/Core/Utilities/Lines/DataProviders/ParabolaPhysicalLineDataProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MRTK/Examples/Demos/Input/Scenes/DisablePointers/DisablePointersExample.cs" root0="FORCE_HIGHLIGHTING" />
@@ -594,6 +584,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/EMP/Visualization/Vector Arrows/EMPFieldSensor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MRTK/SDK/Features/Utilities/PointerUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MRTK/SDK/Features/Input/Handlers/Manipulation/ManipulationHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Cassia/CassiaUIScripts/MeasuringStick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Cassia/CassiaUIScripts/PaintTool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MRTK/Core/Interfaces/Devices/IMixedRealityHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Cassia/CassiaUIScripts/Paintable.cs" root0="FORCE_HIGHLIGHTING" />
@@ -636,6 +627,7 @@
         <option value="$PROJECT_DIR$/Assets/Cassia/MRTK/DeletorToggle.cs" />
         <option value="$PROJECT_DIR$/Assets/Cassia/MRTK/CassiaPointerMediator.cs" />
         <option value="$PROJECT_DIR$/Assets/Cassia/MRTK/ToolPointerInitialConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Cassia/CassiaUIScripts/CassiaSpawnBox.cs" />
       </list>
     </option>
   </component>
@@ -645,9 +637,9 @@
     </ignored-facets>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1913" />
-    <option name="width" value="1341" />
-    <option name="height" value="1047" />
+    <option name="x" value="2553" />
+    <option name="width" value="1294" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -708,11 +700,13 @@
       <workItem from="1597694299937" duration="19748000" />
       <workItem from="1598908528538" duration="9519000" />
       <workItem from="1598984465952" duration="8498000" />
+      <workItem from="1602181098944" duration="2465000" />
+      <workItem from="1602207732432" duration="1293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52616000" />
+    <option name="totallyTimeSpent" value="56374000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -724,7 +718,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="0" width="1341" height="1047" extended-state="0" />
+    <frame x="2553" y="0" width="1294" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24958402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -802,69 +797,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Cassia/CassiaUIScripts/ForceMeter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="74" column="11" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="74" selection-end-column="11" />
-          <folding>
-            <marker date="1597784320330" expanded="true" signature="6:94" ph="..." />
-            <marker date="1597784320330" expanded="true" signature="135:3201" ph="{...}" />
-            <marker date="1597784320330" expanded="true" signature="656:873" ph="{...}" />
-            <marker date="1597784320330" expanded="true" signature="663:812" ph="/* dropZone.ObjectSnappedToDropZone += ChargeSnappedToDropZone; ... */" />
-            <marker date="1597784320330" expanded="true" signature="903:1065" ph="{...}" />
-            <marker date="1597784320330" expanded="true" signature="910:1059" ph="/* dropZone.ObjectSnappedToDropZone -= ChargeSnappedToDropZone; ... */" />
-            <marker date="1597784320330" expanded="true" signature="1067:1500" ph="/* private void ChargeSnappedToDropZone(object o, SnapDropZoneEventArgs e) ... */" />
-            <marker date="1597784320330" expanded="true" signature="1540:1879" ph="{...}" />
-            <marker date="1597784320330" expanded="true" signature="1612:1656" ph="{...}" />
-            <marker date="1597784320330" expanded="true" signature="1690:1734" ph="{...}" />
-            <marker date="1597784320330" expanded="true" signature="1785:1852" ph="{...}" />
-            <marker date="1597784320330" expanded="true" signature="1912:3199" ph="{...}" />
-            <marker date="1597784320330" expanded="true" signature="1927:2648" ph="/* Return zero if any of the following are true: ... */" />
-            <marker date="1597784320330" expanded="true" signature="2687:3063" ph="/* joint.targetRotation = Quaternion.LookRotation(reactor.ForceUponReactor().normalized, Vector3.up); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MRTK/SDK/Features/UX/Scripts/Pointers/DefaultPrimaryPointerSelector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="108" column="33" lean-forward="true" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
-          <folding>
-            <marker date="1595980874231" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-            <marker date="1595980874231" expanded="false" signature="160:210" ph="..." />
-            <marker date="1595980874231" expanded="true" signature="258:5896" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="265:637" ph="/// Default primary pointer selector. The primary pointer is chosen among all interaction enabled ones using the  ... " />
-            <marker date="1595980874231" expanded="true" signature="751:5894" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="930:1040" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="1071:1183" ph="{...}" />
-            <marker date="1595980874231" expanded="false" signature="1193:2752" ph="IMixedRealityPrimaryPointerSelector" />
-            <marker date="1595980874231" expanded="true" signature="1303:1431" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="1500:1562" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="1750:2696" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="1804:2686" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="1982:2632" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="2476:2614" ph="{...}" />
-            <marker date="1595980874231" expanded="false" signature="2762:4119" ph="IMixedRealityPointerHandler" />
-            <marker date="1595980874231" expanded="true" signature="3041:3335" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="3102:3325" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="3232:3311" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="3573:3866" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="3632:3856" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="3762:3842" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="4154:5888" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="4257:4734" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="4352:4720" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="4426:4652" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="4921:5447" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="4997:5433" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="5060:5192" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="5242:5375" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="5622:5719" ph="{...}" />
-            <marker date="1595980874231" expanded="true" signature="5781:5878" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MRTK/Services/InputSystem/InputSystemGlobalHandlerListener.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -3516,13 +3448,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MRTK/Core/Interfaces/Devices/IMixedRealityHand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1595980871409" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+            <marker date="1595980871409" expanded="true" signature="249:830" ph="{...}" />
+            <marker date="1595980871409" expanded="true" signature="256:367" ph="/// Hand definition, used to provide access to hand joints and other data. ... " />
+            <marker date="1595980871409" expanded="true" signature="432:828" ph="{...}" />
+            <marker date="1595980871409" expanded="true" signature="447:745" ph="/// Get the current pose of a hand joint. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MRTK/SDK/Features/Input/Handlers/CursorContextObjectManipulator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <marker date="1595980873673" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+            <marker date="1595980873673" expanded="false" signature="160:305" ph="..." />
+            <marker date="1595980873673" expanded="true" signature="350:2643" ph="{...}" />
+            <marker date="1595980873673" expanded="true" signature="357:651" ph="/// This script provides cursor context for the object manipulator. ... " />
+            <marker date="1595980873673" expanded="true" signature="839:2641" ph="{...}" />
+            <marker date="1595980873673" expanded="true" signature="1011:1557" ph="{...}" />
+            <marker date="1595980873673" expanded="true" signature="1637:1920" ph="{...}" />
+            <marker date="1595980873673" expanded="true" signature="1795:1910" ph="{...}" />
+            <marker date="1595980873673" expanded="true" signature="1999:2192" ph="{...}" />
+            <marker date="1595980873673" expanded="true" signature="2067:2182" ph="{...}" />
+            <marker date="1595980873673" expanded="true" signature="2268:2371" ph="{...}" />
+            <marker date="1595980873673" expanded="true" signature="2445:2635" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Cassia/CassiaUIScripts/DeletorPointer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="928">
           <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
           <folding>
             <marker date="1598913777827" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-            <marker date="1598913777827" expanded="false" signature="160:257" ph="..." />
             <marker date="1598913777827" expanded="true" signature="305:5591" ph="{...}" />
             <marker date="1598913777827" expanded="true" signature="312:465" ph="/// Implementation for default hand ray pointers shipped with MRTK. Primarily used with hands and motion controll ... " />
             <marker date="1598913777827" expanded="true" signature="598:5589" ph="{...}" />
@@ -3545,39 +3511,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Cassia/MRTK/DeletorToggle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding>
-            <marker date="1598985739640" expanded="false" signature="6:283" ph="..." />
-            <marker date="1598985739640" expanded="true" signature="327:1896" ph="{...}" />
-            <marker date="1598985739640" expanded="true" signature="373:1894" ph="{...}" />
-            <marker date="1598985739640" expanded="true" signature="568:674" ph="{...}" />
-            <marker date="1598985739640" expanded="true" signature="1116:1293" ph="/* IsInteractionEnabled should be a proxy for PointerBehavior, but I am not 100% sure and this could be a future  ... */" />
-            <marker date="1598985739640" expanded="true" signature="1343:1609" ph="{...}" />
-            <marker date="1598985739640" expanded="true" signature="1622:1888" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MRTK/Core/Interfaces/Devices/IMixedRealityHand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <marker date="1595980871409" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-            <marker date="1595980871409" expanded="true" signature="249:830" ph="{...}" />
-            <marker date="1595980871409" expanded="true" signature="256:367" ph="/// Hand definition, used to provide access to hand joints and other data. ... " />
-            <marker date="1595980871409" expanded="true" signature="432:828" ph="{...}" />
-            <marker date="1595980871409" expanded="true" signature="447:745" ph="/// Get the current pose of a hand joint. ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Cassia/MRTK/CassiaPointerMediator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="848">
           <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="63" selection-end-column="119" />
           <folding>
             <marker date="1598999300042" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
@@ -3639,7 +3575,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Cassia/MRTK/ToolPointerInitialConfig.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="32">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <marker date="1598999375303" expanded="false" signature="6:170" ph="..." />
@@ -3651,7 +3587,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MRTK.ThirdParty/MRTK-Quest/Scripts/Input/TeleportPointer/CustomTeleportPointer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
+        <state relative-caret-position="5280">
           <caret line="728" column="17" selection-start-line="728" selection-start-column="17" selection-end-line="728" selection-end-column="17" />
           <folding>
             <marker date="1595978686507" expanded="true" signature="0:1424" ph="/* ------------------------------------------------------------------------------ - ... */" />
@@ -3673,7 +3609,7 @@
             <marker date="1595978686507" expanded="true" signature="8163:8753" ph="{...}" />
             <marker date="1595978686507" expanded="true" signature="8207:8743" ph="{...}" />
             <marker date="1595978686507" expanded="false" signature="8783:9230" ph="Parabollic Pointer Management" />
-            <marker date="1595978686507" expanded="true" signature="9240:14785" ph="Base Pointer Management" />
+            <marker date="1595978686507" expanded="false" signature="9240:14785" ph="Base Pointer Management" />
             <marker date="1595978686507" expanded="true" signature="9403:9769" ph="{...}" />
             <marker date="1595978686507" expanded="true" signature="9460:9759" ph="{...}" />
             <marker date="1595978686507" expanded="true" signature="9545:9745" ph="{...}" />
@@ -3820,7 +3756,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MRTK/Examples/Demos/Input/Scenes/DisablePointers/DisablePointersExample.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="288">
           <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
             <marker date="1595980872253" expanded="false" signature="6:176" ph="..." />
@@ -3844,7 +3780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MRTK/SDK/Features/UX/Scripts/Utilities/PointerBehaviorControls.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="2704">
           <caret line="188" column="62" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="62" />
           <folding>
             <marker date="1595980874282" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
@@ -3886,30 +3822,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MRTK/SDK/Features/Input/Handlers/CursorContextObjectManipulator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <marker date="1595980873673" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-            <marker date="1595980873673" expanded="false" signature="160:305" ph="..." />
-            <marker date="1595980873673" expanded="true" signature="350:2643" ph="{...}" />
-            <marker date="1595980873673" expanded="true" signature="357:651" ph="/// This script provides cursor context for the object manipulator. ... " />
-            <marker date="1595980873673" expanded="true" signature="839:2641" ph="{...}" />
-            <marker date="1595980873673" expanded="true" signature="1011:1557" ph="{...}" />
-            <marker date="1595980873673" expanded="true" signature="1637:1920" ph="{...}" />
-            <marker date="1595980873673" expanded="true" signature="1795:1910" ph="{...}" />
-            <marker date="1595980873673" expanded="true" signature="1999:2192" ph="{...}" />
-            <marker date="1595980873673" expanded="true" signature="2067:2182" ph="{...}" />
-            <marker date="1595980873673" expanded="true" signature="2268:2371" ph="{...}" />
-            <marker date="1595980873673" expanded="true" signature="2445:2635" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MRTK/SDK/Features/Utilities/PointerUtils.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-970">
+        <state relative-caret-position="2704">
           <caret line="185" column="27" selection-start-line="185" selection-start-column="27" selection-end-line="185" selection-end-column="27" />
           <folding>
             <marker date="1595980874316" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
@@ -3975,7 +3890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MRTK/Examples/Demos/HandTracking/Scripts/TetheredPlacement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
+        <state relative-caret-position="224">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <marker date="1595980872246" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
@@ -3993,14 +3908,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MRTK/Examples/Demos/Input/Scenes/PointerResult/SpawnOnPointerEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="272">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <marker date="1595980872301" expanded="false" signature="6:62" ph="..." />
             <marker date="1595980872301" expanded="true" signature="119:692" ph="{...}" />
             <marker date="1595980872301" expanded="true" signature="314:690" ph="{...}" />
             <marker date="1595980872301" expanded="true" signature="428:684" ph="{...}" />
             <marker date="1595980872301" expanded="true" signature="477:674" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Cassia/CassiaUIScripts/CassiaSpawnBox.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding>
+            <marker date="1602181132713" expanded="false" signature="6:94" ph="..." />
+            <marker date="1602181132713" expanded="true" signature="139:7799" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="1381:1447" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="1480:1693" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="1804:2358" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="1916:1975" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="2081:2140" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="2246:2305" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="2421:2490" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="2538:2666" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="2730:4519" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="2790:2892" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="2955:3008" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="3076:4367" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="4376:4475" ph="/* TODO Normcore integration ... */" />
+            <marker date="1602181132713" expanded="true" signature="4574:4644" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="4703:4811" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="4881:5360" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="4958:5166" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="5199:5327" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="5421:6642" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="5481:5583" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="5646:5712" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="5772:6514" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="6680:6905" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="6744:6890" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="6943:7406" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="7211:7317" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="7330:7400" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="7464:7797" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="7553:7666" ph="{...}" />
+            <marker date="1602181132713" expanded="true" signature="7679:7791" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Cassia/MRTK/DeletorToggle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <marker date="1598985739640" expanded="false" signature="6:283" ph="..." />
+            <marker date="1598985739640" expanded="true" signature="327:1896" ph="{...}" />
+            <marker date="1598985739640" expanded="true" signature="373:1894" ph="{...}" />
+            <marker date="1598985739640" expanded="true" signature="568:674" ph="{...}" />
+            <marker date="1598985739640" expanded="true" signature="1116:1293" ph="/* IsInteractionEnabled should be a proxy for PointerBehavior, but I am not 100% sure and this could be a future  ... */" />
+            <marker date="1598985739640" expanded="true" signature="1343:1609" ph="{...}" />
+            <marker date="1598985739640" expanded="true" signature="1622:1888" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Cassia/CassiaUIScripts/MeasuringStick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <marker date="1579591433594" expanded="false" signature="6:119" ph="..." />
+            <marker date="1579591433594" expanded="true" signature="177:1097" ph="{...}" />
+            <marker date="1579591433594" expanded="true" signature="468:550" ph="{...}" />
+            <marker date="1579591433594" expanded="true" signature="628:701" ph="{...}" />
+            <marker date="1579591433594" expanded="true" signature="759:1022" ph="{...}" />
+            <marker date="1579591433594" expanded="true" signature="1054:1095" ph="{...}" />
           </folding>
         </state>
       </provider>
